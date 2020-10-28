@@ -18,9 +18,9 @@ public class ThreadPoolConfig {
     @Bean
     public ExecutorService getThreadPool(){
 
-        /*          核心线程池的大小是：3
-         *          线程池的最大数量：5
-         *          空闲线程的存活时间：2000
+        /*          核心线程池的大小是：75
+         *          线程池的最大数量：125
+         *          空闲线程的存活时间：180000
          *          空闲线程的存活时间的单位：ms
          *          工作队列：基于链表结构的阻塞队列
          *          饱和策略：没有声明默认采用CallerRunsPolicy （由调用线程处理该任务）
